@@ -1,0 +1,10 @@
+{
+  "scripts": {
+    "dprint": "dprint fmt dprint.test.js",
+    "biome": "biome format biome.test.js --write"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "1.9.4",
+    "dprint": "^0.48.0"
+  }
+}

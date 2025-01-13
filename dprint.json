@@ -1,0 +1,30 @@
+{
+    "lineWidth": 120,
+    "indentWidth": 2,
+    "useTabs": false,
+    "plugins": [
+      "https://plugins.dprint.dev/typescript-0.85.0.wasm"
+    ],
+    "typescript": {
+      "quoteStyle": "preferSingle",
+      "quoteProps": "preserve",
+      "trailingCommas": "always",
+      "semiColons": "always",
+      "useBraces": "whenNotSingleLine",
+      "newLineKind": "lf",
+      "bracePosition": "sameLine",
+      "singleBodyPosition": "maintain",
+      "operatorPosition": "nextLine",
+      "preferHanging": "false",
+      "arrowFunction.useParentheses": "force",
+      "memberExpression.linePerExpression": true,
+      "typeLiteral.separatorKind": "semiColon",
+      "spaceAround": false,
+      "spaceSurroundingProperties": true,
+      "importDeclaration.forceMultiLine": "whenMultiple",
+      "exportDeclaration.forceMultiLine": "whenMultiple",
+      "importDeclaration.sortNamedImports": "caseInsensitive",
+      "exportDeclaration.sortNamedExports": "caseInsensitive"
+    }
+  }
+  
